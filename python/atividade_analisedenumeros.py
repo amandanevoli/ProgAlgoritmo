@@ -5,7 +5,7 @@ def obter_numeros():
         try:
             valor = int(input(f"Digite o {contador}º número: "))
             if valor in numeros:
-                print("Esse número já foi digitado anteriormente. Para dar continuidade, digite outro.")
+                print("Esse número já foi digitado anteriormente. Para dar continuidade, digite outro número.")
             else:
                 numeros.add(valor)
                 contador += 1
@@ -65,4 +65,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
